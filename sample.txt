@@ -7,7 +7,7 @@ hello shahi
 
 Adding new task 1
 
-git clone 
+git clone https://github.com/Shilpa-Ngowda/project1.git
 git init
 git config --global user.email "your email"
 git config --global user.name "your name"
