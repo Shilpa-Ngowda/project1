@@ -6,3 +6,27 @@ hello shahi
 
 
 Adding new task 1
+
+git clone 
+git init
+git config --global user.email "your email"
+git config --global user.name "your name"
+git remote add (ex. git remote add origin git@github.com:Shilpa-Ngowda/project1.git)
+
+git status
+git add . >> to add all files and filders in that dir
+git add (perticularfile ex. sample.txt)
+git commit -m "commit msg"
+git push
+git push origin -u branch name
+git pull
+git pull origin branch name
+git checkout -b branch name to create
+git checkout
+git branch -d branch_to_delete
+ 
+Rasing pull request for task branch
+merging pull request from for task branch (mainly done by leads or managers)
+
+git log -p (for linting all the commits in the branch)
+
