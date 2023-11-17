@@ -29,4 +29,4 @@ Rasing pull request for task branch
 merging pull request from for task branch (mainly done by leads or managers)
 
 git log -p (for linting all the commits in the branch)
-
+git fetch >>> get all changes related to branches/commit will come to local
