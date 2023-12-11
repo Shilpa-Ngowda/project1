@@ -1,0 +1,31 @@
+pipeline {
+    agent { label "projecta"}
+
+    stages {
+        stage('step1 - git clone ') {
+            steps {
+                git 'https://github.com/vincloud2/Helloworld-latest.git'
+            }
+        }
+
+
+        stage('step2 - maven build') {
+            steps {
+                sh 'yum update -y'
+                sh 'yum install -y maven'
+                sh 'mvn clean package'
+            }
+        }
+
+        stage('step3 - deploy') {
+            steps {
+                deploy adapters: [tomcat8(credentialsId: 'admin_tomcat', path: '', url: 'http://13.234.117.138:8080/')], contextPath: null, war: 'target/*.war'
+            }
+        }
+        stage('step4 - deploy') {
+            steps {
+                deploy adapters: [tomcat8(credentialsId: 'admin_tomcat', path: '', url: 'http://13.234.117.138:8080/')], contextPath: null, war: 'target/*.war'
+            }
+        }
+    }
+}
