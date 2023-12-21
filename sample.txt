@@ -1,4 +1,3 @@
-
 Adding new task 1
 
 git clone https://github.com/Shilpa-Ngowda/project1.git
