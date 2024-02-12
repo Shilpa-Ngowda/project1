@@ -30,3 +30,8 @@ git remote set-url origin git@github.com:Shilpa-Ngowda/project1.git
 
 apt-get clean && apt-get purge
 apt-get update && apt-get install vim
+
+docker build -t my-nginx-image .
+docker run -d --name my-nginx-container --network host my-nginx-image
+
+docker run --restart unless-stopped -d -p 88:80 my-nginx-image
