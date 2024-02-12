@@ -26,3 +26,7 @@ git fetch >>> get all changes related to branches/commit will come to local
 git remote set-url origin git@github.com:Shilpa-Ngowda/project1.git
 
 >>>>>>>>>>>testing>>>>>>>>>>>>>>>>>>>
+
+
+apt-get clean && apt-get purge
+apt-get update && apt-get install vim
