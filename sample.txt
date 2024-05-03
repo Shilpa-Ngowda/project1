@@ -14,10 +14,9 @@ git push
 git push origin -u branch name
 git pull
 git pull origin branch name
-git checkout -b branch name to create
-git checkout
-git branch -d branch_to_delete
- 
+git checkout -b branch name (to create new)
+git checkout ( to switch b/w branches)
+git branch -d branch name (branch_to_delete) 
 Rasing pull request for task branch
 merging pull request from for task branch (mainly done by leads or managers)
 
