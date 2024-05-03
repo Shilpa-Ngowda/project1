@@ -24,6 +24,19 @@ git log -p (for linting all the commits in the branch)
 git fetch >>> get all changes related to branches/commit will come to local
 git remote set-url origin git@github.com:Shilpa-Ngowda/project1.git
 
+
+git clone (repo created code)
+ls
+cd to created repo folder
+ls
+(copy downloaded code to cloned repo folder)
+git add .
+git commit -m "msg"
+git push
+useranme
+password token
+
+
 >>>>>>>>>>>testing>>>>>>>>>>>>>>>>>>>
 
 
